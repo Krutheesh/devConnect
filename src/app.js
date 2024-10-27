@@ -8,6 +8,7 @@ app.use(
   cors({
     origin: "https://devconnectclient.netlify.app",
     credentials: true,
+  
   })
 );
 app.use(express.json());
